@@ -1,0 +1,112 @@
+/* General Styles for Login Page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Title */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Form */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Login Button */
+.login-container button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Links */
+.login-container a {
+    display: block;
+    margin-top: 15px;
+    color: #3498db;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+    }
+}
+
+/* Centering the login container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Centers content inside */
+}
+
+/* Styling the logo */
+.logo img {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    width: 120px; /* Adjust size */
+    height: auto; /* Keeps aspect ratio */
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-top: 10px;
+}
